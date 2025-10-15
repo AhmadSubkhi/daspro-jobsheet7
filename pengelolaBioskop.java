@@ -20,8 +20,10 @@ public class pengelolaBioskop {
 
             if (tiket > 4 && tiket <= 10) {
                 bayar = harga * tiket - (harga * 0.1);
+                System.out.println("=== Selamat anda mendapat diskon 10%");
             } else if (tiket > 10){
                 bayar = harga * tiket - (harga * 0.15);
+                System.out.println("=== Selamat anda mendapat diskon 15%");
             } else {
                 bayar = harga * tiket;
             } 
